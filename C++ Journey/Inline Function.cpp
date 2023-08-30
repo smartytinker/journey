@@ -17,7 +17,7 @@ int sum(int a, int b)
     
 }
 
-int sum1(int a, int b)
+inline  int sum1(int a, int b)
 {
     
     int c = a + b;

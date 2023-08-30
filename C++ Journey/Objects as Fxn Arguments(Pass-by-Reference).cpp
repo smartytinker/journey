@@ -29,7 +29,6 @@ public:
         
         cout << hours << " hours and " << minutes << "minutes" << endl;
         
-        
     }
     
     void fxn3(name *, name *);

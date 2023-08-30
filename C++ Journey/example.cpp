@@ -1,71 +1,56 @@
-//
-//  Objects as Fxn Arguments.cpp
-//  C++ Journey
-//
-//  Created by Siddhant on 04/08/23.
-//
-
 #include <iostream>
 using namespace std;
 
-typedef
-class name
-{
-    
-    int hours, minutes;
-    
-public:
-    
-    void fxn1(int a, int b)
-    {
-        
-        hours = a;
-        minutes = b;
-        
-    }
-    
-    void fxn2()
-    {
-        
-        cout << hours << " hours and " << minutes << "minutes" << endl;
-        
-        
-    }
-    
-    void fxn3(name *, name *);
-    
-}
-rot;
-
-void rot :: fxn3(name *A, name *B)
-{
-    
-    rot C;
-    int total = A->minutes + B->minutes;
-    C.hours = A->hours + B->hours;
-    C.minutes = total % 60;
-    C.hours = total / 60 + C.hours;
-    C.fxn2();
-    A->hours = 0;
-    A->minutes = 0;
-
-}
-
 int main()
 {
+    int a, b, c[6], d, count = 0;
     
-    rot A, B, C;
+    cin >> a;
     
-    A.fxn1(2, 30);
-    A.fxn2();
+    for(int i = 1; i <= a; i++)
+    {
+        
+        for(int j = 0; j < 6; j++)
+        {
+            
+            cin >> c[j];
+            
+        }
+        
+        for(int k = 2; k < 6; k++)
+        {
+            
+            if(c[k] == c[0] || c[k] == c[1])
+            {
+                
+                if(c[k+1] == c[0] || c[k+1] == c[1])
+                {
+                    
+                    count++;
+                    d = k;
+                    break;
+                    
+                }
+              
+                
+            }
+            
+        }
+        
+            
+    if((d == 2 || d == 3) && count != 0)
+    cout << "\n1";
     
-    B.fxn1(3, 45);
-    B.fxn2();
-    C.fxn3(&A, &B);
+    if((d == 4 || d == 5) && count != 0)
+    cout << "\n2";
     
-    A.fxn2();
+    if(count == 0)
+    cout << "\n0";
     
-    
+    count = 0;
+        
+    }
+
+
     return 0;
 }
-

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35CEF2932A7D32A5000AD436 /* Friendly Fxns(Pass-by-Reference).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35CEF2922A7D32A5000AD436 /* Friendly Fxns(Pass-by-Reference).cpp */; };
+		3508E87C2A9F9EB5004B50AA /* Class to Class type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3508E87B2A9F9EB5004B50AA /* Class to Class type.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3508E8612A98BC3C004B50AA /* Recursions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursions.cpp; sourceTree = "<group>"; };
+		3508E8642A98DDD5004B50AA /* Boolean.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boolean.cpp; sourceTree = "<group>"; };
+		3508E8662A98DE9E004B50AA /* idiot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = idiot.cpp; sourceTree = "<group>"; };
+		3508E8682A99B2C4004B50AA /* Unary Operator Overloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Unary Operator Overloading.cpp"; sourceTree = "<group>"; };
+		3508E86A2A9A209C004B50AA /* Binary operator overloading(using member functions).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Binary operator overloading(using member functions).cpp"; sourceTree = "<group>"; };
+		3508E86D2A9E4E5A004B50AA /* string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
+		3508E86F2A9E5897004B50AA /* Typecasting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Typecasting.cpp; sourceTree = "<group>"; };
+		3508E8762A9F6BE8004B50AA /* Basic to Class type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Basic to Class type.cpp"; sourceTree = "<group>"; };
+		3508E8782A9F6CAF004B50AA /* Class to Basic Type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Class to Basic Type.cpp"; sourceTree = "<group>"; };
+		3508E87B2A9F9EB5004B50AA /* Class to Class type.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Class to Class type.cpp"; sourceTree = "<group>"; };
+		351A59E12A7F80EA006A44DA /* Constructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Constructor.cpp; sourceTree = "<group>"; };
+		351A59E42A7FC6A1006A44DA /* Copy Constructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Copy Constructor.cpp"; sourceTree = "<group>"; };
+		351A59E62A8035EA006A44DA /* Constructor with Default Arguments.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Constructor with Default Arguments.cpp"; sourceTree = "<group>"; };
+		351A59E92A8047F8006A44DA /* Destructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Destructor.cpp; sourceTree = "<group>"; };
 		35CEF2502A7BA41A000AD436 /* C++ Journey */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Journey"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35CEF2652A7BAB0E000AD436 /* C++ Journey */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "C++ Journey"; sourceTree = "<group>"; };
 		35CEF2682A7BB1E7000AD436 /* Scope Resolution Operator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Scope Resolution Operator.cpp"; sourceTree = "<group>"; };
 		35CEF26A2A7BB260000AD436 /* Reference variable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reference variable.cpp"; sourceTree = "<group>"; };
 		35CEF26D2A7BBC69000AD436 /* Switch Statement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Switch Statement.cpp"; sourceTree = "<group>"; };
@@ -56,6 +69,20 @@
 		35CEF2472A7BA41A000AD436 = {
 			isa = PBXGroup;
 			children = (
+				3508E87B2A9F9EB5004B50AA /* Class to Class type.cpp */,
+				3508E8782A9F6CAF004B50AA /* Class to Basic Type.cpp */,
+				3508E8762A9F6BE8004B50AA /* Basic to Class type.cpp */,
+				3508E86F2A9E5897004B50AA /* Typecasting.cpp */,
+				3508E86D2A9E4E5A004B50AA /* string.cpp */,
+				3508E86A2A9A209C004B50AA /* Binary operator overloading(using member functions).cpp */,
+				3508E8682A99B2C4004B50AA /* Unary Operator Overloading.cpp */,
+				3508E8662A98DE9E004B50AA /* idiot.cpp */,
+				3508E8642A98DDD5004B50AA /* Boolean.cpp */,
+				3508E8612A98BC3C004B50AA /* Recursions.cpp */,
+				351A59E92A8047F8006A44DA /* Destructor.cpp */,
+				351A59E62A8035EA006A44DA /* Constructor with Default Arguments.cpp */,
+				351A59E42A7FC6A1006A44DA /* Copy Constructor.cpp */,
+				351A59E12A7F80EA006A44DA /* Constructor.cpp */,
 				35CEF2922A7D32A5000AD436 /* Friendly Fxns(Pass-by-Reference).cpp */,
 				35CEF2902A7D279D000AD436 /* Friendly Fxns.cpp */,
 				35CEF28E2A7D2662000AD436 /* Objects as Fxn Arguments(Pass-by-Reference).cpp */,
@@ -71,7 +98,6 @@
 				35CEF26D2A7BBC69000AD436 /* Switch Statement.cpp */,
 				35CEF26A2A7BB260000AD436 /* Reference variable.cpp */,
 				35CEF2682A7BB1E7000AD436 /* Scope Resolution Operator.cpp */,
-				35CEF2652A7BAB0E000AD436 /* C++ Journey */,
 				35CEF2512A7BA41A000AD436 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CEF2932A7D32A5000AD436 /* Friendly Fxns(Pass-by-Reference).cpp in Sources */,
+				3508E87C2A9F9EB5004B50AA /* Class to Class type.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
