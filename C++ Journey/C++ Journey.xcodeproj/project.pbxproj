@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35662CD62AA0E299006E680D /* Multilevel Level Inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35662CCE2AA0CE22006E680D /* Multilevel Level Inheritance.cpp */; };
+		3506E84F2AA6461C00AED14E /* Virtual Fxns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3506E84E2AA6461C00AED14E /* Virtual Fxns.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3506E8482AA6264D00AED14E /* Arrays of Objects using Pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Arrays of Objects using Pointers.cpp"; sourceTree = "<group>"; };
+		3506E84A2AA62C1000AED14E /* This Pointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "This Pointer.cpp"; sourceTree = "<group>"; };
+		3506E84C2AA6309A00AED14E /* Pointer to Derived Class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Pointer to Derived Class.cpp"; sourceTree = "<group>"; };
+		3506E84E2AA6461C00AED14E /* Virtual Fxns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Virtual Fxns.cpp"; sourceTree = "<group>"; };
 		3508E8612A98BC3C004B50AA /* Recursions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursions.cpp; sourceTree = "<group>"; };
 		3508E8642A98DDD5004B50AA /* Boolean.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boolean.cpp; sourceTree = "<group>"; };
 		3508E8662A98DE9E004B50AA /* idiot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = idiot.cpp; sourceTree = "<group>"; };
@@ -37,6 +41,11 @@
 		351A59E42A7FC6A1006A44DA /* Copy Constructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Copy Constructor.cpp"; sourceTree = "<group>"; };
 		351A59E62A8035EA006A44DA /* Constructor with Default Arguments.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Constructor with Default Arguments.cpp"; sourceTree = "<group>"; };
 		351A59E92A8047F8006A44DA /* Destructor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Destructor.cpp; sourceTree = "<group>"; };
+		354C097C2AA2064C004D746F /* Virtual Base Class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Virtual Base Class.cpp"; sourceTree = "<group>"; };
+		354C09822AA38BD1004D746F /* en1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = en1.cpp; sourceTree = "<group>"; };
+		354C09842AA5F451004D746F /* Constructor Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Constructor Inheritance.cpp"; sourceTree = "<group>"; };
+		354C09862AA5FAA8004D746F /* Nesting of Classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Nesting of Classes.cpp"; sourceTree = "<group>"; };
+		354C09882AA61BF3004D746F /* Pointer to Object.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Pointer to Object.cpp"; sourceTree = "<group>"; };
 		35662CCC2AA0B39A006E680D /* Single Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Single Inheritance.cpp"; sourceTree = "<group>"; };
 		35662CCE2AA0CE22006E680D /* Multilevel Level Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Multilevel Level Inheritance.cpp"; sourceTree = "<group>"; };
 		35662CD42AA0DCC4006E680D /* Multiple Level Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Multiple Level Inheritance.cpp"; sourceTree = "<group>"; };
@@ -72,6 +81,10 @@
 		35CEF2472A7BA41A000AD436 = {
 			isa = PBXGroup;
 			children = (
+				354C09882AA61BF3004D746F /* Pointer to Object.cpp */,
+				354C09862AA5FAA8004D746F /* Nesting of Classes.cpp */,
+				354C09842AA5F451004D746F /* Constructor Inheritance.cpp */,
+				354C097C2AA2064C004D746F /* Virtual Base Class.cpp */,
 				35662CD42AA0DCC4006E680D /* Multiple Level Inheritance.cpp */,
 				35662CCE2AA0CE22006E680D /* Multilevel Level Inheritance.cpp */,
 				35662CCC2AA0B39A006E680D /* Single Inheritance.cpp */,
@@ -82,10 +95,14 @@
 				3508E86D2A9E4E5A004B50AA /* string.cpp */,
 				3508E86A2A9A209C004B50AA /* Binary operator overloading(using member functions).cpp */,
 				3508E8682A99B2C4004B50AA /* Unary Operator Overloading.cpp */,
+				3506E84A2AA62C1000AED14E /* This Pointer.cpp */,
+				3506E84C2AA6309A00AED14E /* Pointer to Derived Class.cpp */,
 				3508E8662A98DE9E004B50AA /* idiot.cpp */,
 				3508E8642A98DDD5004B50AA /* Boolean.cpp */,
 				3508E8612A98BC3C004B50AA /* Recursions.cpp */,
 				351A59E92A8047F8006A44DA /* Destructor.cpp */,
+				3506E84E2AA6461C00AED14E /* Virtual Fxns.cpp */,
+				3506E8482AA6264D00AED14E /* Arrays of Objects using Pointers.cpp */,
 				351A59E62A8035EA006A44DA /* Constructor with Default Arguments.cpp */,
 				351A59E42A7FC6A1006A44DA /* Copy Constructor.cpp */,
 				351A59E12A7F80EA006A44DA /* Constructor.cpp */,
@@ -98,6 +115,7 @@
 				35CEF2822A7BF615000AD436 /* Outside the Class Definition(Accessing private data through fxns).cpp */,
 				35CEF2802A7BF177000AD436 /* Specifying a Class.cpp */,
 				35CEF27B2A7BEE71000AD436 /* example.cpp */,
+				354C09822AA38BD1004D746F /* en1.cpp */,
 				35CEF2752A7BD29A000AD436 /* Function Overloading.cpp */,
 				35CEF2722A7BCD48000AD436 /* Inline Function.cpp */,
 				35CEF26F2A7BC473000AD436 /* Call by Reference.cpp */,
@@ -173,7 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35662CD62AA0E299006E680D /* Multilevel Level Inheritance.cpp in Sources */,
+				3506E84F2AA6461C00AED14E /* Virtual Fxns.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
