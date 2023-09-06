@@ -1,102 +1,41 @@
-//
-//  idiot.cpp
-//  C++ Journey
-//
-//  Created by Siddhant on 25/08/23.
-//
-
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main()
 {
+    int a, b; long double d, e, f, g;
+    string c;
     
-    string a = "onetwothreefourthree", b = "abc";
+    cin >> a;
     
-    
-    cout << "\nS1 = " << a << "\n";
-    
-    cout << "\nS2 = " << b << "\n";
-    
-    
-    //---------------------------------------------------------
-    
-    
-    cout << a.at(1);
-    
-    int r = a.find("t");
-    cout << r << "\n";
-    
-    int r1 = a.find_first_of("t");
-    cout << r1 << "\n";
-    
-    int r2 = a.find_last_of("t");
-    
-    cout << r2 << "\n";
-    
-    a.substr(1, 3);
-    
-    cout << a << "\n";
-    
-    
-    
-    
-    
-    
-    //---------------------------------------------------------
-    
-    cout << "S1 = ";
-    getline(cin, a);
-    
-    cout << "\nS2 = ";
-    getline(cin, b);
-
-    
-    a.swap(b);
-    
-    cout << a << "\n" << b << "\n";
-    
-    
-    int x = a.compare(b);
-    
-    cout << "compare a and b = " << x << "\n\n";
-    
-    
-    
-    
-    //---------------------------------------------------------
-    
-    cout << "S1 Size = "  << a.size() << "\n";
-    
-    cout << "S1 length = "  << a.length() << "\n";
-    
-    cout << "S1 capacity = " << a.capacity() << "\n";
-    
-    cout << "S1 max size = " << a.max_size() << "\n";
-    
-    cout << "S1 String empty = " << (a.empty() ? "yes" : "no");
-    
-    
-    
-    //---------------------------------------------------------
-    
-    
-    
-    a.insert(4, b);           // inserts other string after 4th position
-    
-    cout << "\nS2 in S1 = " << a << "\n";
-    
-    a.erase(4, 3);
-    
-    cout << "\nRemoving 3 characters after 4th position = " << a << "\n";
-    
-    a.replace(2, 3, b);
-    
-    cout <<"\nReplacing 3 characters after 2nd position from S2 = " << a << "\n\n";
-    
-    
+    for(int i = 1; i <= a; i++)
+    {
+        
+        cin >> b;
+        
+        getline(cin , c);
+        
+        for(int j = 0; j < b/2; j = j + 2)
+        {
+            
+           int t = c.at(j);
+           c.at(j) = c.at(j+1);
+           c.at(j+1) = t;
+            
+        }
+        
+        d = c.find_first_of('a');
+        c.at(d) = 'z';
+        e = c.find_first_of('b');
+        c.at(e) = 'y';
+        f = c.find_first_of('c');
+        c.at(f) = 'x';
+        g = c.find_first_of('z');
+        c.at(g) = 'a';
+        
+        cout << c;
+        
+    }
     return 0;
-    
 }
-
