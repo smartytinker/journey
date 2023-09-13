@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3506E8512AA7419A00AED14E /* en1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 354C09822AA38BD1004D746F /* en1.cpp */; };
-		3506E8532AA7449B00AED14E /* Abstract Classes and Pure Virtual Fxns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3506E8522AA7449B00AED14E /* Abstract Classes and Pure Virtual Fxns.cpp */; };
-		3506E8552AA769F500AED14E /* gitpr1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3506E8542AA769F500AED14E /* gitpr1.cpp */; };
+		35AA87132AAB957000809A04 /* TIC-TAC-TOE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35AA87122AAB957000809A04 /* TIC-TAC-TOE.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +29,13 @@
 		3506E84E2AA6461C00AED14E /* Virtual Fxns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Virtual Fxns.cpp"; sourceTree = "<group>"; };
 		3506E8522AA7449B00AED14E /* Abstract Classes and Pure Virtual Fxns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Abstract Classes and Pure Virtual Fxns.cpp"; sourceTree = "<group>"; };
 		3506E8542AA769F500AED14E /* gitpr1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gitpr1.cpp; sourceTree = "<group>"; };
+		3506E8572AA8E0CF00AED14E /* Graphics1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graphics1.cpp; sourceTree = "<group>"; };
+		3506E8592AA8E1F500AED14E /* gra1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gra1.c; sourceTree = "<group>"; };
+		3506E85C2AA8E89500AED14E /* libsfml-audio.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.6.0.dylib"; path = "../Librariesadded/SFML/lib/libsfml-audio.2.6.0.dylib"; sourceTree = "<group>"; };
+		3506E85D2AA8E89500AED14E /* libsfml-graphics.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.6.0.dylib"; path = "../Librariesadded/SFML/lib/libsfml-graphics.2.6.0.dylib"; sourceTree = "<group>"; };
+		3506E85E2AA8E89500AED14E /* libsfml-system.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.6.0.dylib"; path = "../Librariesadded/SFML/lib/libsfml-system.2.6.0.dylib"; sourceTree = "<group>"; };
+		3506E85F2AA8E89500AED14E /* libsfml-window.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.6.0.dylib"; path = "../Librariesadded/SFML/lib/libsfml-window.2.6.0.dylib"; sourceTree = "<group>"; };
+		3506E8602AA8E89500AED14E /* libsfml-network.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.6.0.dylib"; path = "../Librariesadded/SFML/lib/libsfml-network.2.6.0.dylib"; sourceTree = "<group>"; };
 		3508E8612A98BC3C004B50AA /* Recursions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursions.cpp; sourceTree = "<group>"; };
 		3508E8642A98DDD5004B50AA /* Boolean.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boolean.cpp; sourceTree = "<group>"; };
 		3508E8662A98DE9E004B50AA /* idiot.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = idiot.cpp; sourceTree = "<group>"; };
@@ -53,6 +58,8 @@
 		35662CCC2AA0B39A006E680D /* Single Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Single Inheritance.cpp"; sourceTree = "<group>"; };
 		35662CCE2AA0CE22006E680D /* Multilevel Level Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Multilevel Level Inheritance.cpp"; sourceTree = "<group>"; };
 		35662CD42AA0DCC4006E680D /* Multiple Level Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Multiple Level Inheritance.cpp"; sourceTree = "<group>"; };
+		35AA870C2AAB569D00809A04 /* fodsja.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fodsja.cpp; sourceTree = "<group>"; };
+		35AA87122AAB957000809A04 /* TIC-TAC-TOE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "TIC-TAC-TOE.cpp"; sourceTree = "<group>"; };
 		35CEF2502A7BA41A000AD436 /* C++ Journey */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Journey"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CEF2682A7BB1E7000AD436 /* Scope Resolution Operator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Scope Resolution Operator.cpp"; sourceTree = "<group>"; };
 		35CEF26A2A7BB260000AD436 /* Reference variable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Reference variable.cpp"; sourceTree = "<group>"; };
@@ -82,6 +89,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3506E85B2AA8E89500AED14E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3506E85C2AA8E89500AED14E /* libsfml-audio.2.6.0.dylib */,
+				3506E85D2AA8E89500AED14E /* libsfml-graphics.2.6.0.dylib */,
+				3506E8602AA8E89500AED14E /* libsfml-network.2.6.0.dylib */,
+				3506E85E2AA8E89500AED14E /* libsfml-system.2.6.0.dylib */,
+				3506E85F2AA8E89500AED14E /* libsfml-window.2.6.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		35CEF2472A7BA41A000AD436 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +127,7 @@
 				351A59E92A8047F8006A44DA /* Destructor.cpp */,
 				3506E84E2AA6461C00AED14E /* Virtual Fxns.cpp */,
 				3506E8482AA6264D00AED14E /* Arrays of Objects using Pointers.cpp */,
+				35AA870C2AAB569D00809A04 /* fodsja.cpp */,
 				351A59E62A8035EA006A44DA /* Constructor with Default Arguments.cpp */,
 				3506E8542AA769F500AED14E /* gitpr1.cpp */,
 				351A59E42A7FC6A1006A44DA /* Copy Constructor.cpp */,
@@ -120,6 +140,9 @@
 				35CEF2842A7BFDE8000AD436 /* Private Member Fxns.cpp */,
 				35CEF2822A7BF615000AD436 /* Outside the Class Definition(Accessing private data through fxns).cpp */,
 				35CEF2802A7BF177000AD436 /* Specifying a Class.cpp */,
+				3506E8592AA8E1F500AED14E /* gra1.c */,
+				3506E8572AA8E0CF00AED14E /* Graphics1.cpp */,
+				35AA87122AAB957000809A04 /* TIC-TAC-TOE.cpp */,
 				35CEF27B2A7BEE71000AD436 /* example.cpp */,
 				354C09822AA38BD1004D746F /* en1.cpp */,
 				35CEF2752A7BD29A000AD436 /* Function Overloading.cpp */,
@@ -129,6 +152,7 @@
 				35CEF26A2A7BB260000AD436 /* Reference variable.cpp */,
 				35CEF2682A7BB1E7000AD436 /* Scope Resolution Operator.cpp */,
 				35CEF2512A7BA41A000AD436 /* Products */,
+				3506E85B2AA8E89500AED14E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,9 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3506E8532AA7449B00AED14E /* Abstract Classes and Pure Virtual Fxns.cpp in Sources */,
-				3506E8552AA769F500AED14E /* gitpr1.cpp in Sources */,
-				3506E8512AA7419A00AED14E /* en1.cpp in Sources */,
+				35AA87132AAB957000809A04 /* TIC-TAC-TOE.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
