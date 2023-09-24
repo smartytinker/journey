@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35AA87132AAB957000809A04 /* TIC-TAC-TOE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35AA87122AAB957000809A04 /* TIC-TAC-TOE.cpp */; };
+		356EDAD42AB869C200E1740F /* TIC-TAC-TOE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35AA87122AAB957000809A04 /* TIC-TAC-TOE.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +58,8 @@
 		35662CCC2AA0B39A006E680D /* Single Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Single Inheritance.cpp"; sourceTree = "<group>"; };
 		35662CCE2AA0CE22006E680D /* Multilevel Level Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Multilevel Level Inheritance.cpp"; sourceTree = "<group>"; };
 		35662CD42AA0DCC4006E680D /* Multiple Level Inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Multiple Level Inheritance.cpp"; sourceTree = "<group>"; };
+		356EDAD12AB85F7D00E1740F /* file editing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "file editing.cpp"; sourceTree = "<group>"; };
+		356EDAD32AB85FC600E1740F /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		35AA870C2AAB569D00809A04 /* fodsja.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fodsja.cpp; sourceTree = "<group>"; };
 		35AA87122AAB957000809A04 /* TIC-TAC-TOE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "TIC-TAC-TOE.cpp"; sourceTree = "<group>"; };
 		35CEF2502A7BA41A000AD436 /* C++ Journey */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Journey"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 				35662CCC2AA0B39A006E680D /* Single Inheritance.cpp */,
 				3508E87B2A9F9EB5004B50AA /* Class to Class type.cpp */,
 				3506E8522AA7449B00AED14E /* Abstract Classes and Pure Virtual Fxns.cpp */,
+				356EDAD32AB85FC600E1740F /* File.txt */,
 				3508E8782A9F6CAF004B50AA /* Class to Basic Type.cpp */,
 				3508E8762A9F6BE8004B50AA /* Basic to Class type.cpp */,
 				3508E86F2A9E5897004B50AA /* Typecasting.cpp */,
@@ -128,6 +131,7 @@
 				3506E84E2AA6461C00AED14E /* Virtual Fxns.cpp */,
 				3506E8482AA6264D00AED14E /* Arrays of Objects using Pointers.cpp */,
 				35AA870C2AAB569D00809A04 /* fodsja.cpp */,
+				356EDAD12AB85F7D00E1740F /* file editing.cpp */,
 				351A59E62A8035EA006A44DA /* Constructor with Default Arguments.cpp */,
 				3506E8542AA769F500AED14E /* gitpr1.cpp */,
 				351A59E42A7FC6A1006A44DA /* Copy Constructor.cpp */,
@@ -221,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35AA87132AAB957000809A04 /* TIC-TAC-TOE.cpp in Sources */,
+				356EDAD42AB869C200E1740F /* TIC-TAC-TOE.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
