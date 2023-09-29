@@ -14,7 +14,7 @@ class tic
     string row[3][3] = {" ", " ", " ", " ", " ", " ", " ", " ", " "};
     int x, y, a[10] = {0, 1, 2, 1, 2, 1, 2, 1, 2, 1};
     int b[7] = {0, 0, 0, 0, 0, 0, 0};
-    bool middle_O = 0, counter = 0, count = 0, outloop, rewritealert = true;
+    bool counter = 0, count = 0, outloop, rewritealert = true;
     
 public:
     
@@ -40,30 +40,21 @@ public:
     void welcome()
         {
             cout << "\n\n WELCOME TO TIC-TAC-TOE\n\n";
-        
-            cout << "      |     |      " << "\n";
-            cout << "  1,1 | 1,2 | 1,3  " << "\n";
-            cout << " _____|_____|_____ " << "\n";
-            cout << "      |     |      " << "\n";
-            cout << "  2,1 | 2,2 | 2,3  " << "\n";
-            cout << " _____|_____|_____ " << "\n";
-            cout << "      |     |      " << "\n";
-            cout << "  3,1 | 3,2 | 3,3  " << "\n";
-            cout << "      |     |      " << "\n";
+        print();
         }
     
     void print()
     {
         cout << "\n\n";
-        cout << "      |     |      " << "\n";
-        cout << "   " << row[0][0] << "  |  " << row[0][1] << "  |  " << row[0][2] << "   " << "\n";
-        cout << " _____|_____|_____ " << "\n";
-        cout << "      |     |      " << "\n";
-        cout << "   " << row[1][0] << "  |  " << row[1][1] << "  |  " << row[1][2] << "   " << "\n";
-        cout << " _____|_____|_____ " << "\n";
-        cout << "      |     |      " << "\n";
-        cout << "   " << row[2][0] << "  |  " << row[2][1] << "  |  " << row[2][2] << "   " << "\n";
-        cout << "      |     |      " << "\n";
+        cout << "      |     |      " <<"                   " << "      |     |      " << "\n";
+        cout << "   " << row[0][0] << "  |  " << row[0][1] << "  |  " << row[0][2] << "                      " << "  1,1 | 1,2 | 1,3  " << "\n";
+        cout << " _____|_____|_____ " << "                   " << " _____|_____|_____ " << "\n";
+        cout << "      |     |      " << "                   " << "      |     |      " << "\n";
+        cout << "   " << row[1][0] << "  |  " << row[1][1] << "  |  " << row[1][2] << "                      " << "  2,1 | 2,2 | 2,3  " << "\n";
+        cout << " _____|_____|_____ " "                   " << " _____|_____|_____ " << "\n";
+        cout << "      |     |      " << "                   " << "      |     |      " << "\n";
+        cout << "   " << row[2][0] << "  |  " << row[2][1] << "  |  " << row[2][2] << "                      " << "  3,1 | 3,2 | 3,3  " << "\n";
+        cout << "      |     |      " << "                   " << "      |     |      " << "\n";
     }
     
     void randommove();
@@ -80,7 +71,6 @@ void tic :: randommove()
 {
     if(counter == 0)
     {
-        cout << "hi1";
         for(int u = 0; u <= 2; u++)
         {
             if (outloop == false)
@@ -93,7 +83,6 @@ void tic :: randommove()
                 {
                     break;
                 }
-                cout <<"hi";
                 if(row[u][n] == " ")
                 {
                     row[u][n] = "O";
@@ -409,7 +398,7 @@ void tic :: check_tie()
             }
         }
     }
-        
+
         if((row[0][0] == "O" && row[0][2] == "O" && row[2][1] == "O") || (row[0][0] == "X" && row[0][2] == "X" && row[2][1] == "X"))
         {
             if(row[0][0] == "O" && row[0][2] == "O" && row[2][1] == "O")
@@ -448,7 +437,7 @@ void tic :: check_tie()
                 exit(0);
             }
         }
-        
+
     }
         
         if((row[2][0] == "X" && row[2][2] == "X" && row[0][1] == "X") || (row[2][0] == "O" && row[2][2] == "O" && row[0][1] == "O"))
@@ -466,10 +455,11 @@ void tic :: check_tie()
                 if(row[1][1] == "O" && row[2][1] == "O")
                    {
                      cout << "\n\nTIE\n\n\n";
+                       exit(0);
                     }
             }
         }
-        
+
 }
 
 void tic :: forcedmove()
@@ -480,10 +470,9 @@ void tic :: forcedmove()
         {
             for(int i = 1; i <= 6; i++)
             {
-                outloop = true;
-                counter = 0;
+                rewritealert = true;
                 print();
-                while(i>2)
+                if(i>2)
                 {
                     check_tie();
                 }
@@ -493,7 +482,8 @@ void tic :: forcedmove()
                     i--;
                     continue;
                 }
-                
+                counter = 0;
+                outloop = true;
                 computerwins();
                 
                 if(row[0][1] == "X" && row[2][1] == " " && b[0] == 0 && counter == 0)
@@ -557,15 +547,14 @@ void tic :: forcedmove()
        && count == 0
        )
     {
-        middle_O = true;
         row[1][1] = "O";
         for(int i = 1; i <= 4; i++)
         {
-            counter = 0;
+            rewritealert = true;
             print();
-            while(i>2)
+            if(i > 2)
             {
-                check_tie();
+               check_tie();
             }
             player_input();
             if(rewritealert == false)
@@ -573,6 +562,8 @@ void tic :: forcedmove()
                 i--;
                 continue;
             }
+            outloop = true;
+            counter = 0;
             computerwins();
             
             //-------------------------------00, 10, 20------------------------------//
@@ -651,10 +642,7 @@ void tic :: forcedmove()
                 counter = 1;
                 continue;
             }
-          if(
-             i<2
-             && ((row[0][0] == "X" && row [2][2] == "X") || (row[0][2] == "X" && row [2][0] == "X"))
-             )
+          if(i<2 && ((row[0][0] == "X" && row [2][2] == "X" && counter == 0) || (row[0][2] == "X" && row [2][0] == "X" && counter == 0)))
              {
               row[0][1] = "O";
               counter = 1;
@@ -672,23 +660,24 @@ void tic :: forcedmove()
                (row[0][1] == "X" || row[1][0] == "X" || row[1][2] == "X" || row[2][1] == "X") && (count == 0)
                )
             {
-                middle_O = true;
-                outloop = true;
                 row[1][1] = "O";
                 for(int i = 1; i <= 4; i++)
                 {
-                    counter = 0;
+                    rewritealert = true;
                     print();
-                    while(i>2)
-                    {
-                        check_tie();
-                    }
                     player_input();
                     if(rewritealert == false)
                     {
                         i--;
                         continue;
                     }
+                    if(i>2)
+                    {
+                        check_tie();
+                    }
+                    
+                    outloop = true;
+                    counter = 0;
                     computerwins();
                     
                     //-------------------------------00, 10, 20------------------------------//
