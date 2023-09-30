@@ -1,6 +1,6 @@
 //
 //  TIC-TAC-TOE.cpp
-//  C++ Journey
+//  Projects
 //
 //  Created by Siddhant on 08/09/23.
 //
